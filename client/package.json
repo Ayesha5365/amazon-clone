@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "description": "My first-class Nuxt.js project",
-  "author": "Hamza",
+  "author": "Ayesha",
   "private": true,
   "scripts": {
     "dev": "nuxt",
