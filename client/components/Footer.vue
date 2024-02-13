@@ -562,10 +562,10 @@
             <a href="#" class="nav_a">Conditions of Use</a>
           </li>
           <li>
-            <a href class="nav_a">Privacy Notice</a>
+            <a href="#" class="nav_a">Privacy Notice</a>
           </li>
           <li>
-            <a href class="nav_a">Internet-Based Ads</a>
+            <a href="#" class="nav_a">Internet-Based Ads</a>
           </li>
           <li class="nav_last">© 1996-2019, Amazon.com, Inc. or its affiliates</li>
         </ul>

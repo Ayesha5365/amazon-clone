@@ -17,32 +17,23 @@
                 <!-- Your Name -->
                 <div class="a-row a-spacing-base">
                   <label for="ap_customer_name" class="a-form-label">Your name</label>
-                  <input
-                    type="text"
-                    id="ap_customer_name"
+                  <input type="text" id="ap_customer_name"
                     class="a-input-text form-control auth-autofocus auth-required-field auth-contact-verification-request-info"
-                    v-model="name"
-                  />
+                    v-model="name" />
                 </div>
                 <!-- Email -->
                 <div class="a-row a-spacing-base">
                   <label for="ap_customer_name" class="a-form-label">Email</label>
-                  <input
-                    type="email"
-                    id="ap_customer_name"
+                  <input type="email" id="ap_customer_name"
                     class="a-input-text form-control auth-autofocus auth-required-field auth-contact-verification-request-info"
-                    v-model="email"
-                  />
+                    v-model="email" />
                 </div>
                 <!-- Password -->
                 <div class="a-row a-spacing-base">
                   <label for="ap_customer_name" class="a-form-label">Password</label>
-                  <input
-                    type="password"
-                    id="ap_customer_name"
+                  <input type="password" id="ap_customer_name"
                     class="a-input-text form-control auth-autofocus auth-required-field auth-contact-verification-request-info"
-                    v-model="password"
-                  />
+                    v-model="password" />
                   <div class="a-alert-container">
                     <div class="a-alert-content">Password must be at least 6 characteres</div>
                   </div>

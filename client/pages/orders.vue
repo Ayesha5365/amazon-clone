@@ -76,8 +76,8 @@
                     <a href="#" class="a-size-base font-weight-bold a-link-normal">Order Details</a>
                     &nbsp;
                     <div
-                      style="display: inline-block; background-color: #ddd; height: 15px; width: 2px; margin-bottom: -3px;"
-                    ></div>&nbsp;
+                      style="display: inline-block; background-color: #ddd; height: 15px; width: 2px; margin-bottom: -3px;">
+                    </div>&nbsp;
                     <a href="#" class="a-size-base font-weight-bold a-link-normal">Invoice</a>
                   </div>
                 </div>
@@ -86,12 +86,10 @@
             <!-- Orders body -->
             <div class="orderContentBodyAlt" v-for="order in orders" :key="order._id">
               <div class="a-row">
-                <h1
-                  class="a-size-medium a-text-bold"
-                  style="color: #111 !important;font-family: 'MyWebFont',Arial,sans-serif !important; "
-                >
+                <h1 class="a-size-medium a-text-bold"
+                  style="color: #111 !important;font-family: 'MyWebFont',Arial,sans-serif !important; ">
                   <!-- Estimated Delivery -->
-                  Estimated Delivery - {{ order.estimatedDelivery}}
+                  Estimated Delivery - {{ order.estimatedDelivery }}
                 </h1>
               </div>
               <!-- List of products from order -->
@@ -116,10 +114,8 @@
                     </div>
                     <div class="a-row">
                       <!-- Product quantity -->
-                      <span
-                        class="a-size-mini"
-                        style="color: #111; font-weight: 400;"
-                      >Quantity: {{ product.productID.quantity }}</span>
+                      <span class="a-size-mini" style="color: #111; font-weight: 400;">Quantity: {{
+                        product.productID.quantity }}</span>
                     </div>
                     <div class="a-row">
                       <!-- Product price -->
